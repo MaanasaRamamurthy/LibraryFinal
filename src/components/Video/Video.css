@@ -43,6 +43,31 @@
     background-color: rgba(255, 255, 255, 0.7);
 } 
 
+@media (min-width: 300px) and (max-width: 420px) {
+    .video-mp4{
+        width: 100%;
+    }
+    .quote{
+        top: 75%;
+    }
+    .quote h1{
+        
+        font-size: 1rem;
+    
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .video-mp4{
+        width: 100%;
+    }
+    .quote{
+        top: 80%;
+    }
+    .quote h1{
+        font-size: 10px;
+    }
+}
 @media screen and (min-width: 480px){
     .video{
         padding-top: 12rem;
@@ -50,8 +75,11 @@
     .video-mp4{
         width: 100%;
     }
+    .quote h1{
+        font-size: 1rem;
+    }
     .quote{
-        top: 72%;
+        top: 75%;
     }
 }
 
@@ -64,8 +92,11 @@
         width: 100%;
         border-radius: 15rem;
     }
+    .quote h1{
+        font-size: 1.2rem;
+    }
     .quote{
-        top: 75%;
+        top: 85%;
     }
 }
 
@@ -77,8 +108,11 @@
     .videoDiv{
         width: 80%;
     }
+    .quote h1{
+        font-size: 1.5rem;
+    }
     .quote{
-        top: 75%;
+        top: 80%;
     }
 }
 

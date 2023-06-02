@@ -34,6 +34,18 @@ h2{
     margin: 1em 0;
 }
 
+@media screen and (max-width: 480px){
+    .newsletter{
+        padding: 4rem 0 4rem;
+    }
+    .newsletter-email{
+        margin: 0.5rem;
+    }
+    .newsletter button{
+        margin: 0;
+    }
+}
+
 @media screen and (min-width: 480px){
     .sectionContainer{
         max-width: 80%;

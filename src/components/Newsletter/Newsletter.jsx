@@ -14,8 +14,8 @@ const Newsletter = () => {
             <div data-aos="fade-up" data-aos-duration='2500' className="sectionContainer container">
                 <h2>Subscribe Newsletters & get Latest News</h2>
                 <div className="inputDiv-news">
-                    <input type = 'text' placeholder='Enter your email address' className='search-form-elem flex flex-sb bf-white'/>
-                    <button className='btn'>Subscribe</button>
+                    <input type = 'text' placeholder='Enter your email address' className='newsletter-email search-form-elem flex flex-sb bf-white'/>
+                    <button className='btn newsletter-button'>Subscribe</button>
                 </div>
             </div>
         </div>

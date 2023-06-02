@@ -138,7 +138,7 @@ input{
 }
 .section-title h2{
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   /* text-transform: uppercase; */
   padding: 18px 0 24px 0;
 }
@@ -168,7 +168,7 @@ h4{
   color: var(--grey-color);
 }
 
-/* ::selection{
+::selection{
   background: var(--purple-color);
   color: var(--white-color);
 }
@@ -180,7 +180,13 @@ h4{
 ::-webkit-scrollbar-thumb{
   background: var(--purple-color);
   border-radius: 10px;
-} */
+}
+
+@media screen and (max-width: 450px){
+  h1{
+    font-size: 2.7rem;
+  }
+}
 
 @media screen and (min-width: 1024px){
   p{
@@ -191,8 +197,6 @@ h4{
   h4{
     font-size: 20px;
   }
-  /* h1{
-  } */
   h2{
     font-size: 27px;
   }

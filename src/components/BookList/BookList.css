@@ -4,6 +4,7 @@
 }
 .booklist-content{
     gap: 3rem;
+    
 }
 .book-item {
     padding: 2rem;
@@ -134,9 +135,17 @@
         transform: translateY(0px);
     }
 }
-/* *********************************************************** */  
-@media screen and (min-width: 600px){
+/* *********************************************************** */ 
+
+@media screen and (max-width: 480px){
+  .booklist-content{
+    margin: 2rem;
+  }
+}
+
+@media screen and (min-width: 480px){
     .booklist-content{
+
         grid-template-columns: repeat(2, 1fr);
     }
 }
