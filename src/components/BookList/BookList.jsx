@@ -21,6 +21,7 @@ const BookList = () => {
 
   const booksWithCovers = books.map((singleBook) => {
     var api_variable = `https://covers.openlibrary.org/b/id/${singleBook.cover_id}-L.jpg`
+    console.log(api_variable)
     return {
       ...singleBook,
       id: singleBook.id.replace('/works/', ''),
