@@ -18,12 +18,14 @@ const BookList = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const booksPerPage = 8;
 
+
   const booksWithCovers = books.map((singleBook) => {
+    var api_variable = `https://covers.openlibrary.org/b/id/${singleBook.cover_id}-L.jpg`
     return {
       ...singleBook,
       id: singleBook.id.replace('/works/', ''),
       cover_img: singleBook.cover_id
-        ? `https://covers.openlibrary.org/b/id/${singleBook.cover_id}-L.jpg`
+        ? {api_variable}
         : coverImg,
     };
   });
