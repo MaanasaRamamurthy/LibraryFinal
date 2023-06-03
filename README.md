@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-The project uses Open Library API to render the book covers when a user enters a book name in the search bar. The API key will not work when hosted in any free hosting site. So kindly run it locally to see the working of the site.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).                                                                
+NOTE: The project uses Open Library API to render the book covers when a user enters a book name in the search bar. The API key will not work when hosted in any free hosting site. So kindly run it locally to see the working of the site.
 
 ## Available Scripts
 
